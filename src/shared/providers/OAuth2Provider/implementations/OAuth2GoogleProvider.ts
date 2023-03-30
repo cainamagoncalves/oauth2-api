@@ -1,4 +1,4 @@
-import { OAuth2Repository } from '../repositories/OAuthRepository';
+import { OAuth2Repository } from '../repositories/OAuth2Repository';
 import OAuth2Client, { google } from 'googleapis';
 import oAuth2Config from '../../../../config/oAuth2.config';
 import { GenerateAuthUrlOpts } from 'google-auth-library';
