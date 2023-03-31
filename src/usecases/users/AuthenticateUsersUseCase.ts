@@ -1,6 +1,6 @@
 import { OAuth2Repository } from '../../shared/providers/OAuth2Provider/repositories/OAuth2Repository';
 
-export class AuthenticateUsersUseCase {
+export class AuthenticateUsersWithGoogleUseCase {
   constructor(private oAuth2Provider: OAuth2Repository) {}
 
   async execute() {
